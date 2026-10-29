@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Logs and analysis
+logs/*.log
+logs/*_log_analysis.txt
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+.gradle/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Backups
+backups/
